@@ -1,4 +1,5 @@
 presentations/*.key
+class_*/presentations/*.key
 class_*/*.key
 Programming_*
 .DS_Store
