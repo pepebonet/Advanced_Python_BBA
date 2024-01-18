@@ -30,7 +30,7 @@ class filters_dataset:
 @click.option('-id', '--input_data', required=True, help='Path to my Input dataset')
 @click.option('-o', '--output', default="outputs", help='Folder to save all outputs')
 @click.option('-f', '--filtering', is_flag=True, help='Set a filtering or not')
-def main(input_data, output, filtering, price, month, year ):
+def main(input_data, output, filtering ):
     """
     Deal with the input data and send to other functions
     """
